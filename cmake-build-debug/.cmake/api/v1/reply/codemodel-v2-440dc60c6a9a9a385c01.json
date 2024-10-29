@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nociones_clave2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "matematicas_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matematicas_shared-Debug-d90f04294c6e25f7c9d6.json",
+					"name" : "matematicas_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matematicas_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matematicas_static-Debug-ae3396217d0d0b78b3ba.json",
+					"name" : "matematicas_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nociones_clave2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nociones_clave2-Debug-831cb18019e81af5a7b0.json",
+					"name" : "nociones_clave2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nociones_clave2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nociones_clave2_2-Debug-a47c76c68563b45f9caf.json",
+					"name" : "nociones_clave2_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/flaviarivero/github/nociones_clave2/cmake-build-debug",
+		"source" : "/Users/flaviarivero/github/nociones_clave2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
