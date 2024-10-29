@@ -1,0 +1,9 @@
+# ninja log v6
+0	524	1730198753038719360	CMakeFiles/nociones_clave2.dir/main.cpp.o	11f6b91cbef908f
+526	655	1730198753564089870	nociones_clave2	1471e52bedf3cdd
+14	488	1730199524376113890	CMakeFiles/nociones_clave2.dir/persona.cpp.o	f0597bb150af3eed
+14	587	1730199524376335181	CMakeFiles/nociones_clave2.dir/estudiante.cpp.o	d111dfde74d0374e
+13	587	1730199524375043601	CMakeFiles/nociones_clave2.dir/main.cpp.o	11f6b91cbef908f
+587	701	1730199524949776903	nociones_clave2	3c2129e89caed1fe
+13	654	1730200268283773663	CMakeFiles/nociones_clave2.dir/main.cpp.o	11f6b91cbef908f
+654	768	1730200268925064506	nociones_clave2	3c2129e89caed1fe
