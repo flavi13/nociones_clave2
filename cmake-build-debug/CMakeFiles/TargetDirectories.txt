@@ -1,3 +1,6 @@
+/Users/flaviarivero/github/nociones_clave2/cmake-build-debug/CMakeFiles/matematicas_static.dir
+/Users/flaviarivero/github/nociones_clave2/cmake-build-debug/CMakeFiles/matematicas_shared.dir
 /Users/flaviarivero/github/nociones_clave2/cmake-build-debug/CMakeFiles/nociones_clave2.dir
+/Users/flaviarivero/github/nociones_clave2/cmake-build-debug/CMakeFiles/nociones_clave2_2.dir
 /Users/flaviarivero/github/nociones_clave2/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/flaviarivero/github/nociones_clave2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

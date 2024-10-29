@@ -41,31 +41,99 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/flaviarivero/github/nociones_clave2/cmake-build-debug/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target matematicas_static
+
+
+#############################################
+# Order-only phony target for matematicas_static
+
+build cmake_object_order_depends_target_matematicas_static: phony || .
+
+build CMakeFiles/matematicas_static.dir/segunda_parte/matematicas.cpp.o: CXX_COMPILER__matematicas_static_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/segunda_parte/matematicas.cpp || cmake_object_order_depends_target_matematicas_static
+  DEP_FILE = CMakeFiles/matematicas_static.dir/segunda_parte/matematicas.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/matematicas_static.dir
+  OBJECT_FILE_DIR = CMakeFiles/matematicas_static.dir/segunda_parte
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target matematicas_static
+
+
+#############################################
+# Link the static library libmatematicas_static.a
+
+build libmatematicas_static.a: CXX_STATIC_LIBRARY_LINKER__matematicas_static_Debug CMakeFiles/matematicas_static.dir/segunda_parte/matematicas.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/matematicas_static.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libmatematicas_static.a
+  TARGET_PDB = matematicas_static.a.dbg
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target matematicas_shared
+
+
+#############################################
+# Order-only phony target for matematicas_shared
+
+build cmake_object_order_depends_target_matematicas_shared: phony || .
+
+build CMakeFiles/matematicas_shared.dir/segunda_parte/matematicas.cpp.o: CXX_COMPILER__matematicas_shared_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/segunda_parte/matematicas.cpp || cmake_object_order_depends_target_matematicas_shared
+  DEFINES = -Dmatematicas_shared_EXPORTS
+  DEP_FILE = CMakeFiles/matematicas_shared.dir/segunda_parte/matematicas.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fPIC -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/matematicas_shared.dir
+  OBJECT_FILE_DIR = CMakeFiles/matematicas_shared.dir/segunda_parte
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target matematicas_shared
+
+
+#############################################
+# Link the shared library libmatematicas_shared.dylib
+
+build libmatematicas_shared.dylib: CXX_SHARED_LIBRARY_LINKER__matematicas_shared_Debug CMakeFiles/matematicas_shared.dir/segunda_parte/matematicas.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  INSTALLNAME_DIR = @rpath/
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/matematicas_shared.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libmatematicas_shared.dylib
+  SONAME_FLAG = -install_name
+  TARGET_FILE = libmatematicas_shared.dylib
+  TARGET_PDB = matematicas_shared.dylib.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target nociones_clave2
 
 
 #############################################
 # Order-only phony target for nociones_clave2
 
-build cmake_object_order_depends_target_nociones_clave2: phony || .
+build cmake_object_order_depends_target_nociones_clave2: phony || cmake_object_order_depends_target_matematicas_static
 
-build CMakeFiles/nociones_clave2.dir/main.cpp.o: CXX_COMPILER__nociones_clave2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/main.cpp || cmake_object_order_depends_target_nociones_clave2
-  DEP_FILE = CMakeFiles/nociones_clave2.dir/main.cpp.o.d
+build CMakeFiles/nociones_clave2.dir/primera_parte/main.cpp.o: CXX_COMPILER__nociones_clave2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/primera_parte/main.cpp || cmake_object_order_depends_target_nociones_clave2
+  DEP_FILE = CMakeFiles/nociones_clave2.dir/primera_parte/main.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/nociones_clave2.dir
-  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2.dir/primera_parte
 
-build CMakeFiles/nociones_clave2.dir/persona.cpp.o: CXX_COMPILER__nociones_clave2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/persona.cpp || cmake_object_order_depends_target_nociones_clave2
-  DEP_FILE = CMakeFiles/nociones_clave2.dir/persona.cpp.o.d
+build CMakeFiles/nociones_clave2.dir/primera_parte/persona.cpp.o: CXX_COMPILER__nociones_clave2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/primera_parte/persona.cpp || cmake_object_order_depends_target_nociones_clave2
+  DEP_FILE = CMakeFiles/nociones_clave2.dir/primera_parte/persona.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/nociones_clave2.dir
-  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2.dir/primera_parte
 
-build CMakeFiles/nociones_clave2.dir/estudiante.cpp.o: CXX_COMPILER__nociones_clave2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/estudiante.cpp || cmake_object_order_depends_target_nociones_clave2
-  DEP_FILE = CMakeFiles/nociones_clave2.dir/estudiante.cpp.o.d
+build CMakeFiles/nociones_clave2.dir/primera_parte/estudiante.cpp.o: CXX_COMPILER__nociones_clave2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/primera_parte/estudiante.cpp || cmake_object_order_depends_target_nociones_clave2
+  DEP_FILE = CMakeFiles/nociones_clave2.dir/primera_parte/estudiante.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/nociones_clave2.dir
-  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2.dir/primera_parte
 
 
 # =============================================================================
@@ -75,13 +143,64 @@ build CMakeFiles/nociones_clave2.dir/estudiante.cpp.o: CXX_COMPILER__nociones_cl
 #############################################
 # Link the executable nociones_clave2
 
-build nociones_clave2: CXX_EXECUTABLE_LINKER__nociones_clave2_Debug CMakeFiles/nociones_clave2.dir/main.cpp.o CMakeFiles/nociones_clave2.dir/persona.cpp.o CMakeFiles/nociones_clave2.dir/estudiante.cpp.o
+build nociones_clave2: CXX_EXECUTABLE_LINKER__nociones_clave2_Debug CMakeFiles/nociones_clave2.dir/primera_parte/main.cpp.o CMakeFiles/nociones_clave2.dir/primera_parte/persona.cpp.o CMakeFiles/nociones_clave2.dir/primera_parte/estudiante.cpp.o | libmatematicas_static.a || libmatematicas_static.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  LINK_LIBRARIES = libmatematicas_static.a
   OBJECT_DIR = CMakeFiles/nociones_clave2.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = nociones_clave2
   TARGET_PDB = nociones_clave2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target nociones_clave2_2
+
+
+#############################################
+# Order-only phony target for nociones_clave2_2
+
+build cmake_object_order_depends_target_nociones_clave2_2: phony || cmake_object_order_depends_target_matematicas_shared
+
+build CMakeFiles/nociones_clave2_2.dir/segunda_parte/main2.cpp.o: CXX_COMPILER__nociones_clave2_2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/segunda_parte/main2.cpp || cmake_object_order_depends_target_nociones_clave2_2
+  DEP_FILE = CMakeFiles/nociones_clave2_2.dir/segunda_parte/main2.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nociones_clave2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2_2.dir/segunda_parte
+
+build CMakeFiles/nociones_clave2_2.dir/segunda_parte/funciones.cpp.o: CXX_COMPILER__nociones_clave2_2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/segunda_parte/funciones.cpp || cmake_object_order_depends_target_nociones_clave2_2
+  DEP_FILE = CMakeFiles/nociones_clave2_2.dir/segunda_parte/funciones.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nociones_clave2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2_2.dir/segunda_parte
+
+build CMakeFiles/nociones_clave2_2.dir/segunda_parte/nuevo.cpp.o: CXX_COMPILER__nociones_clave2_2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/segunda_parte/nuevo.cpp || cmake_object_order_depends_target_nociones_clave2_2
+  DEP_FILE = CMakeFiles/nociones_clave2_2.dir/segunda_parte/nuevo.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nociones_clave2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2_2.dir/segunda_parte
+
+build CMakeFiles/nociones_clave2_2.dir/segunda_parte/encabezado.cpp.o: CXX_COMPILER__nociones_clave2_2_unscanned_Debug /Users/flaviarivero/github/nociones_clave2/segunda_parte/encabezado.cpp || cmake_object_order_depends_target_nociones_clave2_2
+  DEP_FILE = CMakeFiles/nociones_clave2_2.dir/segunda_parte/encabezado.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nociones_clave2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/nociones_clave2_2.dir/segunda_parte
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nociones_clave2_2
+
+
+#############################################
+# Link the executable nociones_clave2_2
+
+build nociones_clave2_2: CXX_EXECUTABLE_LINKER__nociones_clave2_2_Debug CMakeFiles/nociones_clave2_2.dir/segunda_parte/main2.cpp.o CMakeFiles/nociones_clave2_2.dir/segunda_parte/funciones.cpp.o CMakeFiles/nociones_clave2_2.dir/segunda_parte/nuevo.cpp.o CMakeFiles/nociones_clave2_2.dir/segunda_parte/encabezado.cpp.o | libmatematicas_shared.dylib || libmatematicas_shared.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/flaviarivero/github/nociones_clave2/cmake-build-debug  libmatematicas_shared.dylib
+  OBJECT_DIR = CMakeFiles/nociones_clave2_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = nociones_clave2_2
+  TARGET_PDB = nociones_clave2_2.dbg
 
 
 #############################################
@@ -109,6 +228,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build matematicas_shared: phony libmatematicas_shared.dylib
+
+build matematicas_static: phony libmatematicas_static.a
+
 # =============================================================================
 # Folder targets.
 
@@ -117,7 +240,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/flaviarivero/github/nociones_clave2/cmake-build-debug
 
-build all: phony nociones_clave2
+build all: phony libmatematicas_static.a libmatematicas_shared.dylib nociones_clave2 nociones_clave2_2
 
 # =============================================================================
 # Built-in targets

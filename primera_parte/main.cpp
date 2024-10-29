@@ -13,6 +13,8 @@ int sumar(int a, int b) {
 int g = 20;
 int main() {
 
+
+
     std::cout << "Hola Mundo" << std::endl;
     int resultado = sumar(5, 3);
     std::cout << "La suma es: " << resultado << std::endl;
@@ -52,6 +54,8 @@ int main() {
 
     std::cout << "Detalles del Estudiante 2:" << std::endl;
     e2.mostrarDetalles();
+
+    std::cout << "Usando la biblioteca estática\n";
 
     return 0;
 }
