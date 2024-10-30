@@ -26,11 +26,11 @@
 -Utiliza la directiva #include para incluir un archivo de encabezado en tu programa.
 
 6.Elección de un compilador
--Configura CLion para que use el compilador GCC.
--Configura CLion para que use el compilador MSVC.
+-Configura CLion para que use el compilador GCC. (He utilizado el compilador GCC durante este trabajo, ya que es el estandar)
+-Configura CLion para que use el compilador MSVC. (Este ejercicio no puedo hacerlo porque es solo para Windows y mi sistema operativo es MaCoos)
 -Compara el rendimiento y los errores al compilar tu programa con diferentes compiladores.
 
 7.Enlazador
--Crea un programa que utilice funciones de una biblioteca estándar de C++, como <vector> o <iostream>, y asegúrate de que el enlazador puede encontrarla.
+-Crea un programa que utilice funciones de una biblioteca estándar de C++, como <vector> o <iostream>, y asegúrate de que el enlazador puede encontrarla. (Cree esta biblioteca para poder hacer distintos ejercicios a lo largo de este proyecto)
 -Crea un programa que utilice funciones de una biblioteca externa, configura tu proyecto para que el enlazador pueda encontrarla.
--Prueba a cambiar la orden de enlazado de las bibliotecas y observa si el comportamiento de tu programa cambia.
+-Prueba a cambiar la orden de enlazado de las bibliotecas y observa si el comportamiento de tu programa cambia. (No hay diferencias notarias)
